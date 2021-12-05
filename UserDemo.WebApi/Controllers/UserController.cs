@@ -16,11 +16,10 @@ namespace UserDemo.WebApi.Controllers
 	public class UserController : ControllerBase
 	{
 		private IUserService _userService;
-		private readonly ILogger<UserController> _logger;
 		private readonly IDistributedCache _distributedCache;
 
-		public UserController(ILogger<UserController> logger, IUserService userService, IDistributedCache distributedCache) {
-			_logger = logger;
+		public UserController(IUserService userService, IDistributedCache distributedCache) 
+		{
 			_userService = userService;
 			_distributedCache = distributedCache;
 		}
