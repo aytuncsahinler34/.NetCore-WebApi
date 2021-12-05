@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserDemo.WebApi</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:UserDemo.WebApi.Controllers.UserController.GetAll" -->
+    </members>
+</doc>
